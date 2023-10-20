@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.data-outer-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.data-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.data-container p {
+  justify-content: center;
+}
+
+.no-bottom-margin {
+  margin-bottom: 0;
+  justify-content: center;
+}
